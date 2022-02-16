@@ -13,19 +13,20 @@ public class Refactoring {
     // nomes Significativos
     int tempoDecorrido = 5;
     List fields = new ArrayList<Field>();
-    void imprimeSoNoTres(int n){
-        for (int i=0; i < 10; i++){
+
+    void imprimeSoNoTres(int n) {
+        for (int i = 0; i < 10; i++) {
             if (n == 3) System.out.println("count:" + i + " = 3");
         }
     }
 
     // Nomes não pronunciáveis
-    LocalDate generationTimestamp=  LocalDate.now();
-    LocalDate modificationTimestamp=  LocalDate.now();
+    LocalDate generationTimestamp = LocalDate.now();
+    LocalDate modificationTimestamp = LocalDate.now();
     int recordId = 102;
 
     // Constantes para números mágicos e afins
-    public static boolean podeSerEireli(int socios){
+    public static boolean podeSerEireli(int socios) {
         return socios <= MAX_SOCIOS_EIRELI;
     }
 
@@ -35,7 +36,8 @@ public class Refactoring {
     LocalDate nascimento = LocalDate.of(1990, Month.APRIL, 12);
 
     // Etc
-    private Pessoa pessoa  =new PessoaImpl();
-    Endereco enderecoDeCobranca=new Endereco();
-    Endereco enderecoDeEntrega= new Endereco();
+    private Pessoa pessoa = new PessoaImpl();
+    Endereco enderecoDeCobranca = new Endereco();
+    Endereco enderecoDeEntrega = new Endereco();
+
 }

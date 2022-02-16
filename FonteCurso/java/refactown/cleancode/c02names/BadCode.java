@@ -21,7 +21,7 @@ public class BadCode {
     LocalDate modymdhms=  LocalDate.now();
     int pszqint = 102;
 
-    // Número mágico - difpicil de encontrar depois
+    // Número mágico - dificil de encontrar depois
     public static boolean podeSerEireli(int socios){
         return socios <= 3;
     }
